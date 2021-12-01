@@ -1,0 +1,279 @@
+/* html {
+    font-size: 62.5%;
+}*/
+
+/* Si mi HTML tine 62.5% mi REM va a valer 1 REM= 10px
+Pero por defecto HTML tiene 100% y mi 1 REM =16px */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* forma de la letra */
+
+    background-color: rgb(65, 55, 55);
+    /* color de todo el fondo */
+
+    color: aliceblue;
+    /* color de las letras */
+
+
+}
+
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto Slab, serif";
+    padding: 70px 30px 30px 50px;
+    margin: 0;
+}
+
+
+/* a de ANCLA, Las secciones de inicio y otras opciones*/
+a {
+    color: rgb(228, 197, 207);
+    text-decoration: none;
+    /* SIN PUNTITOS AL LADO*/
+
+    margin-right: 35px;
+}
+
+
+.secciones {
+    padding: 50px 80px;
+    margin: 10px;
+
+}
+
+
+
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.headerMenu ul {
+    list-style: none;
+    width: 100%;
+
+}
+
+
+
+.headerLogo img {
+    width: 30px;
+    margin-left: 2px;
+
+    /*filter: invert(100);  CAMBIA MI LOGO A COLOR LILA*/
+
+}
+
+
+.headerLogo {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 5px 5px 5px 1px;
+    /* top right botton left*/
+
+}
+
+
+
+/* VIEWPORT
+vh = Alto de la pantalla
+vw= Ancho de la pantalla*/
+
+
+
+header ul li {
+    display: inline-block;
+    /* Hace que el menu sea uno al lado del otro*/
+
+    margin-right: 10px;
+    /*  Separa cada costado del menu la medida derecha (right)*/
+
+    margin-top: 15px;
+
+    /* margin-left: 80px;*/
+
+    /* margin-bottom: 100px;*/
+
+
+}
+
+
+
+/*medioMedio {
+    font-weight: bolder;
+    font-size: 1.25rem;
+     1 REM = 16px   dividir los pixeles por 16px  
+    text-align: center;
+    line-height: 2;
+    IMAGEN DETRAS DE LAS LETRAS
+    color: rgb(131, 186, 204);
+    background-position: left;
+
+     Margin aplicado a todo margin: 50px; 1 valor se aplica a los 4 lados*/
+
+/* Margin diferente por lado 
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    overflow: auto;*/
+
+/*Resumido en una linea*/
+/* margin: 20px 15px; 2 valores el primero es de arriba y abajo y el segundo a los costados*/
+/* margin: 6px 5px 10px 5px;*/
+/* top right botton left*/
+
+/*Padding tiene las mismas opciones que margin (top botton etc)*/
+/*padding: 10px;*/
+
+/*BORDES*/
+/* border: solid 3px black;*/
+/* BORDE DEL CUADRO DE TEXTO*/
+
+
+
+/* LETRA DE ARRIBA LA PRINCIPAL*/
+.musiLandia {
+    position: absolute;
+    top: 15px;
+    left: 48px;
+    right: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    color: black;
+}
+
+
+
+/* HERO se le suele llamar a la parte principal de la pagina*/
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagenes/1024_768_20100923121339569285.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.biografia {
+    justify-content: space-between;
+    font-size: 1rem;
+    line-height: 1.8;
+    display: flex;
+    align-items: center;
+    color: bisque;
+
+}
+
+.biografia aside,
+.biografia img {
+    height: 100%;
+
+
+}
+
+.footer {
+    background-color: rgb(209, 153, 88);
+
+    /*font-weight: lighter;
+    font-size: smaller;
+    text-align: center;*/
+    padding: 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.footerRow {
+    margin-top: 40px;
+
+}
+
+.footerSocial a {
+    margin-left: 10px;
+}
+
+.footerSocial img {
+    height: 60px;
+}
+
+.footerMenu ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.footerMenu ul li {
+    margin-top: 2px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+
+/*grid-template-areas: 
+"box1" "box1" "box1"
+"box2" "box3" "box3"
+"box2" "box4" "box4";
+
+
+/* RESPONSIVE con Media Queries */
+
+/*Sintaxis:
+@media screen and (breakpoint) : 
+    ACA VAN LAS REGLAS CSS*/
+
+
+/*Breackpoints:
+- min- width: Mobile First
+Primer breackpoint: min-width: 400px
+Segundo breckpoint: min-width: 600px.
+
+
+- max- width: Desktop First
+Desktop diseña para pantallas mas grandes.
+Primer breckpoint: max-widh: 1200px
+Segundo breckpoint: max-width: 1024px
+*/
+
+
+
+/* Todo lo que esta aca es para que se vea bien en tablet */
+@media screen and (max-width: 1023px) {
+    /* .headerLogo { 
+        display: none;
+    }*/
+
+}
+
+
+
+/* Todo lo que esta aca es para que se vea bien en mobile */
+@media screen and (max-width: 767px) {
+    /* .headerLogo
+    {
+  display: none;
+    }*/
+}
