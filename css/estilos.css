@@ -127,7 +127,7 @@ header ul li {
 /* HERO se le suele llamar a la parte principal de la pagina*/
 .hero {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-image: url(../imagenes/musicaPrincipal.jpg );
     background-size: cover;
     background-repeat: no-repeat;
@@ -243,7 +243,7 @@ padding: 0;
     padding-left: 50px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
     .footerRow {
         flex-direction: column;
         align-items: center;
@@ -260,7 +260,7 @@ padding: 0;
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .footerSocial img {
         height: 30px;
     }
