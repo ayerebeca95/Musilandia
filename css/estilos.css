@@ -30,6 +30,7 @@ h3,
 h4,
 h5,
 h6 {
+    padding: 20px 5px 5px;
     font-family: "Roboto Slab, serif";
    /* padding: 70px 30px 30px 50px;
     margin: 0;*/
@@ -146,7 +147,7 @@ vw= Ancho de la pantalla*/
 
 .biografia {
     justify-content: space-between;
-    font-size: 1rem;
+    font-size: 1.25rem;
     line-height: 1.8;
     display: flex;
     align-items: center;
@@ -162,12 +163,13 @@ vw= Ancho de la pantalla*/
 
 }
 
-.imagenCostado {
+/*.imagenCostado {
    height: 70vh;
   
     border: 3px solid black;
+   margin-right: 25px;
  
-}
+}*/
 
 .biografiaAside {
     margin-top: 20px;
@@ -175,6 +177,7 @@ vw= Ancho de la pantalla*/
     line-height: 1.8;
     font-size: 1rem;
     margin: 25px 20px ;
+    display: flex;
   
 
 }
@@ -188,9 +191,9 @@ vw= Ancho de la pantalla*/
 
 .poema {
     margin-top: 1px;
-    color: cadetblue;
+    color: rgb(177, 169, 54);
     line-height: 1.8;
-    font-size: 1.25rem;
+    font-size: 1.30rem;
 }
 
 .footer {
