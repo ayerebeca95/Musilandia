@@ -95,16 +95,16 @@ a {
 
 }
 
-.headerMenu {
-    width: 40%;
-}
+/*.headerMenu {
+    width: 30%;
+}*/
 
 
 .headerMenu ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    width: 100%;
+   
 
 }
 
@@ -194,6 +194,12 @@ vw= Ancho de la pantalla*/
     color: rgb(177, 169, 54);
     line-height: 1.8;
     font-size: 1.30rem;
+}
+
+
+.seccionesIframe {
+    display: flex;
+  margin: 10px 5px;
 }
 
 .footer {
