@@ -1,0 +1,44 @@
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+
+    &Menu ul  {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        width: 100%;
+
+          li {
+            display: inline-block;
+          }
+      
+       
+    
+    }
+   
+}
+
+.headerLogo {
+    display: flex;
+    align-items: center;
+   
+    img {
+        width: 25px;
+     }    
+
+}
+
+
+
+
+
+
+
+
+
+

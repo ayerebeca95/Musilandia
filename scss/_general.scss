@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* forma de la letra */
+
+    background-color: rgb(65, 55, 55);
+    /* color de todo el fondo */
+
+    color: aliceblue;
+    /* color de las letras */
+
+
+}
+
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 20px 5px 5px;
+    font-family: "Roboto Slab, serif";
+   /* padding: 70px 30px 30px 50px;
+    margin: 0;*/
+}
+
+
+/* a de ANCLA, Las secciones de inicio y otras opciones*/
+a {
+    color: rgb(247, 206, 219);
+    text-decoration: none;
+    /* SIN PUNTITOS AL LADO*/
+
+    margin-right: 30px;
+}
+
