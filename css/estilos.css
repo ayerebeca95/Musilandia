@@ -39,16 +39,16 @@ h6 {
 
 /* a de ANCLA, Las secciones de inicio y otras opciones*/
 a {
-    color: rgb(228, 197, 207);
+    color: rgb(247, 206, 219);
     text-decoration: none;
     /* SIN PUNTITOS AL LADO*/
 
-    margin-right: 35px;
+    margin-right: 30px;
 }
 
 
 .secciones {
-    padding: 0px 70px;
+    padding: 0px 50px;
     margin: 0px;
 
 }
@@ -66,13 +66,13 @@ a {
 }
 
 .header {
-    position: fixed;
+    position: absolute;
     width: 100%;
     padding: 0px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 2;
+   
 }
 
 
@@ -100,13 +100,18 @@ a {
 }*/
 
 
-.headerMenu ul {
+.headerMenu ul  {
     display: flex;
     justify-content: space-between;
     list-style: none;
     width: 100%;
+  
    
 
+}
+
+.headerMenu ul li {
+    display: inline-block;
 }
 
 /* VIEWPORT
@@ -115,7 +120,7 @@ vw= Ancho de la pantalla*/
 
 
 
-.headerMenu ul li {
+/*.headerMenu ul li {
     display: inline-block;
     /* Hace que el menu sea uno al lado del otro*/
 
@@ -129,7 +134,7 @@ vw= Ancho de la pantalla*/
     /* margin-bottom: 100px;*/
 
 
-}
+
 
 
 
@@ -138,7 +143,7 @@ vw= Ancho de la pantalla*/
 .hero {
     width: 100%;
     height: 100vh;
-    background-image: url(../imagenes/musicaPrincipal.jpg );
+    background-image: url(../imagenes/imgnuevaa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -190,6 +195,7 @@ vw= Ancho de la pantalla*/
    
 }
 
+/* POEMA DEBAJO DE LA IMAGEN PRINCIPAL*/
 .poema {
     margin-top: 1px;
     color: rgb(177, 169, 54);
@@ -198,11 +204,6 @@ vw= Ancho de la pantalla*/
 }
 
 
-.seccionesIframe {
-    display: flex;
-  margin: 10px 5px;
-}
-
 .footer {
     background-color: rgb(209, 153, 88);
     padding: 20px 0px;
@@ -210,13 +211,15 @@ vw= Ancho de la pantalla*/
 }
 
 .footerRow {
-    margin-top: 50px;
+   margin-top: 50px;
     margin-bottom: 5px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
+ 
+   
 }
+
 
 
 
@@ -284,7 +287,20 @@ padding: 0;
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
+.headerMenu, .hero {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+  }
+   
+}
+
+
+@media screen and (max-width: 700px) {
+  
+   
+
     .footerRow {
         flex-direction: column;
         align-items: center;
@@ -292,16 +308,17 @@ padding: 0;
     }
 
     .footerMenu, .footerForm {
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
 
     .footerForm {
-        width: 70%;
+        width: 100%;
     }
 }
 
 
 @media screen and (max-width: 500px) {
+  
     .footerSocial img {
         height: 30px;
     }
