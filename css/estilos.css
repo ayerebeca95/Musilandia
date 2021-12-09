@@ -113,7 +113,7 @@ a {
     right: 3px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: small;
-    color: black;
+    color: rgb(19, 124, 45);
 }
 
 
@@ -275,10 +275,56 @@ vw= Ancho de la pantalla*/
 
 
 
+@media screen and (max-width: 640px) {
+    .headerMenu ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        width: 100%;
+        display: inline-block;
+        margin-top: 12px;
+        font-size: 0.9rem;
+     
+    
+    }
 
-@media screen and (max-width: 700px) {
+    @media screen and (max-width: 640px) {
+        .hero {
+            width: 100vh;
+            height: 50vh;
+            background-image: url(../imagenes/imgnuevaa.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+}
 
 
+/* BIOGRAFIA*/
+@media screen and (max-width: 640px) {
+    .biografia p {
+        justify-content: space-between;
+        font-size: 1.20rem;
+        line-height: 1.8;
+        display: flex;
+        align-items: center;
+        color: bisque;
+        width: 100%;
+      
+    
+    }
+}
+
+
+
+/* FOOTER*/
+@media screen and (max-width: 640px) {
+
+     .footer {
+         width: 100%;
+     }
 
     .footerRow {
         flex-direction: column;
@@ -294,10 +340,17 @@ vw= Ancho de la pantalla*/
     .footerForm {
         width: 100%;
     }
+
+    .footerMenu ul  { 
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+
+    }
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
 
     .footerSocial img {
         height: 30px;
