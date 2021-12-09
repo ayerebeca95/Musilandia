@@ -3,7 +3,7 @@
 }*/
 
 /* Si mi HTML tine 62.5% mi REM va a valer 1 REM= 10px
-Pero por defecto HTML tiene 100% y mi 1 REM =16px */
+Pero por defecto HTML tiene 100% y 1 REM =16px */
 
 * {
     margin: 0;
@@ -44,26 +44,9 @@ a {
     /* SIN PUNTITOS AL LADO*/
 
     margin-right: 30px;
+  
 }
 
-
-.secciones {
-    padding: 0px 50px;
-    margin: 0px;
-
-}
-
-
-/* LETRA DE ARRIBA LA PRINCIPAL*/
-.musiLandia {
-    position: absolute;
-    top: 15px;
-    left: 48px;
-    right: 3px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: small;
-    color: black;
-}
 
 .header {
     position: fixed;
@@ -113,7 +96,28 @@ a {
 
 .headerMenu ul li {
     display: inline-block;
+    margin-top: 12px;
 }
+
+
+.secciones {
+    padding: 0px 50px;
+    margin: 0px;
+
+}
+
+
+/* LETRA DE ARRIBA LA PRINCIPAL*/
+.musiLandia {
+    position: absolute;
+    top: 15px;
+    left: 48px;
+    right: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    color: black;
+}
+
 
 /* VIEWPORT
 vh = Alto de la pantalla
@@ -178,7 +182,7 @@ vw= Ancho de la pantalla*/
    
 }
 
-/* POEMA DEBAJO DE LA IMAGEN PRINCIPAL*/
+/* POEMA DEBAJO DE LAS TRES IMAGENES DE BOOTSTRAP*/
 .poema {
     margin-top: 1px;
     color: rgb(177, 169, 54);
@@ -283,7 +287,7 @@ padding: 0;
     }
 
     .footerMenu, .footerForm {
-        margin-bottom: 100px;
+        margin-bottom: 80px;
     }
 
     .footerForm {

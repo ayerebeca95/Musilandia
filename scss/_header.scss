@@ -1,44 +1,38 @@
 .header {
-    position: fixed;
-    width: 100%;
-    padding: 0px 10px;
+  position: fixed;
+  width: 100%;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+
+  &Menu ul {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    z-index: 2;
+    list-style: none;
+    width: 100%;
 
-    &Menu ul  {
-        display: flex;
-        justify-content: space-between;
-        list-style: none;
-        width: 100%;
-
-          li {
-            display: inline-block;
-          }
-      
-       
-    
+    li {
+      display: inline-block;
+      margin-top: 12px;
     }
-   
-}
+  }
 
-.headerLogo {
+  &Logo {
     display: flex;
     align-items: center;
-   
+
     img {
-        width: 25px;
-     }    
+      width: 25px;
+      /* margin-left: 2px; */
+
+      /*filter: invert(100);  CAMBIA MI LOGO A COLOR LILA*/
+
+    }
+
+
+  }
+
 
 }
-
-
-
-
-
-
-
-
-
-
