@@ -32,7 +32,7 @@ h5,
 h6 {
     padding: 20px 5px 5px;
     font-family: "Roboto Slab, serif";
-   /* padding: 70px 30px 30px 50px;
+    /* padding: 70px 30px 30px 50px;
     margin: 0;*/
 }
 
@@ -42,11 +42,9 @@ a {
     color: rgb(247, 206, 219);
     text-decoration: none;
     /* SIN PUNTITOS AL LADO*/
-
+   
     margin-right: 30px;
-  
 }
-
 
 .header {
     position: fixed;
@@ -56,14 +54,14 @@ a {
     justify-content: space-between;
     align-items: center;
     z-index: 2;
-   
+
 }
 
 
 
 .headerLogo img {
     width: 25px;
-   /* margin-left: 2px; */
+    /* margin-left: 2px; */
 
     /*filter: invert(100);  CAMBIA MI LOGO A COLOR LILA*/
 
@@ -73,7 +71,7 @@ a {
 .headerLogo {
     display: flex;
     align-items: center;
-   /* padding: 5px;
+    /* padding: 5px;
     margin: 5px 5px 5px 1px;*/
     /* top right botton left*/
 
@@ -84,13 +82,13 @@ a {
 }*/
 
 
-.headerMenu ul  {
+.headerMenu ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
     width: 100%;
-  
-   
+
+
 
 }
 
@@ -107,7 +105,7 @@ a {
 }
 
 
-/* LETRA DE ARRIBA LA PRINCIPAL*/
+/* Letra al lado del logo */
 .musiLandia {
     position: absolute;
     top: 15px;
@@ -129,14 +127,14 @@ vw= Ancho de la pantalla*/
     display: inline-block;
     /* Hace que el menu sea uno al lado del otro*/
 
-  /*  margin-right: 5px;*/
-    /*  Separa cada costado del menu la medida derecha (right)*/
+/*  margin-right: 5px;*/
+/*  Separa cada costado del menu la medida derecha (right)*/
 
-  /*  margin-top: 15px;*/
+/*  margin-top: 15px;*/
 
-    /* margin-left: 80px;*/
+/* margin-left: 80px;*/
 
-    /* margin-bottom: 100px;*/
+/* margin-bottom: 100px;*/
 
 
 
@@ -163,23 +161,24 @@ vw= Ancho de la pantalla*/
     display: flex;
     align-items: center;
     color: bisque;
-  
+
 
 }
 
 
 .biografia img {
     height: 100%;
-   
+
 
 }
 
 
 
-.container, .row {
+.container,
+.row {
     padding: 25px 10px 10px;
-   
-   
+
+
 }
 
 /* POEMA DEBAJO DE LAS TRES IMAGENES DE BOOTSTRAP*/
@@ -194,17 +193,17 @@ vw= Ancho de la pantalla*/
 .footer {
     background-color: rgb(209, 153, 88);
     padding: 20px 0px;
-  
+
 }
 
 .footerRow {
-   margin-top: 50px;
+    margin-top: 50px;
     margin-bottom: 5px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
- 
-   
+
+
 }
 
 
@@ -219,7 +218,8 @@ vw= Ancho de la pantalla*/
     height: 60px;
 }
 
-.footerMenu, .footerSocial {
+.footerMenu,
+.footerSocial {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -231,14 +231,14 @@ vw= Ancho de la pantalla*/
 
 .footerMenu ul {
     list-style: none;
-    
+
 }
 
 
 .footerMenu ul li {
     margin-top: 5px;
-   margin-right: 500px; 
-   
+    margin-right: 500px;
+
 }
 
 .footerForm {
@@ -250,10 +250,10 @@ vw= Ancho de la pantalla*/
 }
 
 .footerForm input[type="submit"] {
-background-color: rgb(241, 23, 59);
-color: white;
-width: 40%;
-padding: 0;
+    background-color: rgb(241, 23, 59);
+    color: white;
+    width: 40%;
+    padding: 0;
 
 
 }
@@ -277,17 +277,18 @@ padding: 0;
 
 
 @media screen and (max-width: 700px) {
-  
-   
+
+
 
     .footerRow {
         flex-direction: column;
         align-items: center;
-        
+
     }
 
-    .footerMenu, .footerForm {
-        margin-bottom: 80px;
+    .footerMenu,
+    .footerForm {
+        margin-bottom: 100px;
     }
 
     .footerForm {
@@ -297,7 +298,7 @@ padding: 0;
 
 
 @media screen and (max-width: 500px) {
-  
+
     .footerSocial img {
         height: 30px;
     }

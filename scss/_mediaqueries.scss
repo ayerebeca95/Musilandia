@@ -1,0 +1,27 @@
+
+/* Parte Footer*/
+@media screen and (max-width: 700px) {
+
+    .footerRow {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .footerMenu,
+    .footerForm {
+        margin-bottom: 100px;
+    }
+
+    .footerForm {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .footerSocial img {
+        height: 30px;
+    }
+}

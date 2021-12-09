@@ -1,82 +1,83 @@
-.footer  {
-        background-color: rgb(209, 153, 88);
-         padding: 20px 0px;
-    
-         &Row {
-         margin-top: 50px;
-         margin-bottom: 5px;
-         display: flex;
-         justify-content: space-evenly;
-         align-items: center;
-        }
+.footer {
+    background-color: rgb(209, 153, 88);
+    padding: 20px 0px;
 
-         &Menu {
-            width: 100%;
-            display: flex;
-            justify-content: center; 
-        }
-          
-        &Menu ul {
-                list-style: none;
-                
-        }
+    &Row {
+        margin-top: 50px;
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 
-        &Menu ul li {
-            margin-top: 5px;
-            margin-right: 500px; 
-        }
+    &Menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        ul {
+            list-style: none;
 
 
-         &Form {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 60%;
- 
-        }
-
-
-    
-    &Social {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-
-
-             &a {
-             margin-left: 10px;
-             margin-right: 50px;
+            li {
+                margin-top: 5px;
+                margin-right: 500px;
             }
 
-        &img {
-        height: 60px;
-       }
-    
+        }
     }
 
 
-&Form input[type="submit"] {
-  background-color: rgb(241, 23, 59);
- color: white;
-  width: 40%;
-  padding: 0;
+    &Form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+
+        input {
+            width: 100%;
+            height: 30px;
+            margin-bottom: 40px;
+            border: 3px solid black;
+            border-radius: 10px;
+            padding-left: 10px;
+    
+            &:focus {
+                background-color: bisque;
+            }  /* Hace que cambie de color al seleccionar */
+        }
+
+        input[type="submit"] {
+            background-color: rgb(241, 23, 59);
+            color: white;
+            width: 40%;
+            padding: 0;
+    
+    
+        }
+    
+
+    }
 
 
-  }
+
+    &Social {
+        width: 100%;
+        display: flex;
+        justify-content: center;
 
 
-&Form input {
-    width: 100%;
-    height: 30px;
-    margin-bottom: 40px;
-    border: 3px solid black;
-    border-radius: 10px;
-    padding-left: 10px;
- }
+        &a {
+            margin-left: 10px;
+            margin-right: 50px;
+        }
 
- /* HACE QUE CAMBIE DE COLOR CUANDO LO TOCAS*/
-&Form input:focus {
-    background-color: bisque;
- }
+        &img {
+            height: 60px;
+        }
+
+    }
+
+
 }
