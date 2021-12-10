@@ -276,21 +276,22 @@ vw= Ancho de la pantalla*/
 
 
 @media screen and (max-width: 640px) {
-    .headerMenu ul {
+    .headerMenu ul li {
         display: flex;
-        justify-content: center;
         list-style: none;
-        width: 100%;
+        width: 40%;
         display: inline-block;
         margin-top: 12px;
-        font-size: 0.9rem;
+        margin-right: 3px;
+        font-size: 0.6rem;
+        box-sizing: border-box;
      
     
     }
 
     @media screen and (max-width: 640px) {
         .hero {
-            width: 100vh;
+            width: 100%;
             height: 50vh;
             background-image: url(../imagenes/imgnuevaa.jpg);
             background-repeat: no-repeat;
