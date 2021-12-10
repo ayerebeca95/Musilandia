@@ -123,25 +123,6 @@ vw= Ancho de la pantalla*/
 
 
 
-/*.headerMenu ul li {
-    display: inline-block;
-    /* Hace que el menu sea uno al lado del otro*/
-
-/*  margin-right: 5px;*/
-/*  Separa cada costado del menu la medida derecha (right)*/
-
-/*  margin-top: 15px;*/
-
-/* margin-left: 80px;*/
-
-/* margin-bottom: 100px;*/
-
-
-
-
-
-
-
 /* HERO se le suele llamar a la parte principal de la pagina*/
 .hero {
     width: 100%;
@@ -191,7 +172,7 @@ vw= Ancho de la pantalla*/
 
 
 .footer {
-    background-color: rgb(209, 153, 88);
+    background-color: rgb(221, 190, 155);
     padding: 20px 0px;
 
 }
@@ -275,6 +256,7 @@ vw= Ancho de la pantalla*/
 
 
 
+/* HEADER MENU*/
 @media screen and (max-width: 640px) {
     .headerMenu ul li {
         display: flex;
