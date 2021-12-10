@@ -1,5 +1,5 @@
 .footer {
-    background-color: rgb(209, 153, 88);
+    background-color: #464545;
     padding: 20px 0px;
 
     &Row {
@@ -42,10 +42,12 @@
             border: 3px solid black;
             border-radius: 10px;
             padding-left: 10px;
-    
+
             &:focus {
                 background-color: bisque;
-            }  /* Hace que cambie de color al seleccionar */
+            }
+
+            /* Hace que cambie de color al seleccionar */
         }
 
         input[type="submit"] {
@@ -53,14 +55,12 @@
             color: white;
             width: 40%;
             padding: 0;
-    
-    
+
+
         }
-    
+
 
     }
-
-
 
     &Social {
         width: 100%;
@@ -78,6 +78,7 @@
         }
 
     }
+
 
 
 }
