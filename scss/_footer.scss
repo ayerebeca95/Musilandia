@@ -1,84 +1,69 @@
 .footer {
-    background-color: #464545;
-    padding: 20px 0px;
+    background-color: black;
+    padding: 50px 0;
 
-    &Row {
-        margin-top: 50px;
-        margin-bottom: 5px;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
+}
 
-    &Menu {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-
-        ul {
-            list-style: none;
+.footerRow  {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 
 
-            li {
-                margin-top: 5px;
-                margin-right: 500px;
-            }
+}
 
-        }
-    }
-
-
-    &Form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 60%;
-
-        input {
-            width: 100%;
-            height: 30px;
-            margin-bottom: 40px;
-            border: 3px solid black;
-            border-radius: 10px;
-            padding-left: 10px;
-
-            &:focus {
-                background-color: bisque;
-            }
-
-            /* Hace que cambie de color al seleccionar */
-        }
-
-        input[type="submit"] {
-            background-color: rgb(241, 23, 59);
-            color: white;
-            width: 40%;
-            padding: 0;
+.footerMenu, .footerSocial {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
-        }
+.footerMenu ul {
+list-style: none;
+
+}
+
+.footerMenu ul li {
+    margin-top: 5px;
+}
+
+.footerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.footerForm input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 2px;
+    border: 0px solid;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.footerForm input[type="submit"] {
+background-color: red;
+color: white;
+width: 30%;
+border: 1px solid rgb(90, 47, 47);
+padding: 0;
+}
 
 
-    }
+.footerSocial a {
+    margin-left: 1px;
+  
+  
 
-    &Social {
-        width: 100%;
-        display: flex;
-        justify-content: center;
+}
 
-
-        &a {
-            margin-left: 10px;
-            margin-right: 50px;
-        }
-
-        &img {
-            height: 20px;
-        }
-
-    }
-
-
-
+.footerSocial img {
+ height: 50px;
+ 
 }
