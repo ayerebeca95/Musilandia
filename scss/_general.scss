@@ -33,9 +33,19 @@ h6 {
 /* a de ANCLA, Las secciones de inicio y otras opciones*/
 a {
     color: rgb(247, 206, 219);
-    text-decoration: none;
+   /* text-decoration: none;*/
     /* SIN PUNTITOS AL LADO*/
 
     margin-right: 30px;
 }
 
+
+/* Incluyendo Mixin*/
+@mixin none {
+    text-decoration: none;
+    
+}
+
+a {
+  @include none 
+}

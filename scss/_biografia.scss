@@ -1,6 +1,6 @@
 .biografia {
     justify-content: space-between;
-    font-size: 1.25rem;
+   /* font-size: 1.25rem;*/
     line-height: 1.8;
     display: flex;
     align-items: center;
@@ -15,6 +15,10 @@
 }
 
 
-
+/* Aplicando EXTEND*/
+.biografia {
+    @extend .biografia; 
+    font-size: 1.25rem;
+}
 
 

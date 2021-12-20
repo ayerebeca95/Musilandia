@@ -24,9 +24,13 @@ h6 {
 /* a de ANCLA, Las secciones de inicio y otras opciones*/
 a {
   color: #f7cedb;
-  text-decoration: none;
+  /* text-decoration: none;*/
   /* SIN PUNTITOS AL LADO*/
   margin-right: 30px; }
+
+/* Incluyendo Mixin*/
+a {
+  text-decoration: none; }
 
 .header {
   position: fixed;
@@ -78,13 +82,17 @@ a {
 
 .biografia {
   justify-content: space-between;
-  font-size: 1.25rem;
+  /* font-size: 1.25rem;*/
   line-height: 1.8;
   display: flex;
   align-items: center;
   color: bisque; }
   .biografia img {
     height: 100%; }
+
+/* Aplicando EXTEND*/
+.biografia {
+  font-size: 1.25rem; }
 
 .container, .row {
   padding: 25px 10px 10px; }
