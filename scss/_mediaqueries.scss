@@ -22,9 +22,8 @@
         background-size: cover;
         background-position: center;
     }
+
 }
-
-
 
 
 /* BIOGRAFIA*/
@@ -59,11 +58,11 @@
 
     .musiLandia {
         position: absolute;
-        top: 7px;
-        left: 38px;
+        top: 23px;
+        left: 25px;
         right: 3px;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: small;
+        font-size: 7px;
         color: rgb(194, 243, 201);
     }
 
@@ -71,15 +70,25 @@
 
     .biografia p {
         justify-content: space-between;
-        font-size: 1rem;
+        font-size: 15px;
         line-height: 1.8;
         display: flex;
         align-items: center;
         color: rgb(245, 243, 241);
         width: 100%;
-
-
+     
     }
+
+
+
+    /* BREVE POEMA DEBAJO DE LAS TRES IMAGENES DE BOOTSTRAP */
+.poema {
+    margin-top: 1px;
+    color: rgb(245, 239, 199);
+    line-height: 1.8;
+    font-size: 15px;
+    
+}
 }
 
 /* Destacados, Generos, Mas recientes (archivos de HTML) TABLAS CREADAS CON GRID*/

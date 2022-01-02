@@ -230,20 +230,26 @@ a {
     align-items: center; }
   .musiLandia {
     position: absolute;
-    top: 7px;
-    left: 38px;
+    top: 23px;
+    left: 25px;
     right: 3px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: small;
+    font-size: 7px;
     color: #c2f3c9; }
   .biografia p {
     justify-content: space-between;
-    font-size: 1rem;
+    font-size: 15px;
     line-height: 1.8;
     display: flex;
     align-items: center;
     color: #f5f3f1;
-    width: 100%; } }
+    width: 100%; }
+  /* BREVE POEMA DEBAJO DE LAS TRES IMAGENES DE BOOTSTRAP */
+  .poema {
+    margin-top: 1px;
+    color: #f5efc7;
+    line-height: 1.8;
+    font-size: 15px; } }
 
 /* Destacados, Generos, Mas recientes (archivos de HTML) TABLAS CREADAS CON GRID*/
 @media screen and (max-width: 640px) {
