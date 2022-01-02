@@ -6,7 +6,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   /* forma de la letra */
-  background-color: #413737;
+  background-color: #141111;
   /* color de todo el fondo */
   color: aliceblue;
   /* color de las letras */ }
@@ -19,14 +19,20 @@ h6 {
   padding: 20px 5px 5px;
   font-family: "Roboto Slab, serif";
   /* padding: 70px 30px 30px 50px;
-    margin: 0;*/ }
+    margin: 0;*/
+  font-size: 1rem;
+  color: #5588a5; }
 
 /* a de ANCLA, Las secciones de inicio y otras opciones*/
 a {
-  color: #f7cedb;
+  color: #6d93b6;
   /* text-decoration: none;*/
   /* SIN PUNTITOS AL LADO*/
-  margin-right: 30px; }
+  margin-right: 25px; }
+
+p {
+  font-size: 15px;
+  color: white; }
 
 /* Incluyendo Mixin*/
 a {
@@ -70,13 +76,21 @@ a {
   border: solid 2px black;
   color: black; }
 
+.noEsperes {
+  padding: 20px 5px 5px;
+  font-family: "Roboto Slab, serif";
+  /* padding: 70px 30px 30px 50px;
+    margin: 0;*/
+  font-size: 18px;
+  color: #66bcd6; }
+
 /* UTILIZANDO GRID*/
 .gridContainer {
   display: grid;
   grid-template-columns: 200px 200px 200px; }
 
 .gridItem {
-  background-color: bisque;
+  background-color: #476774;
   border: solid 2px black;
   color: black; }
 
@@ -86,19 +100,19 @@ a {
   grid-template-columns: 200px 200px 200px; }
 
 .gridItem {
-  background-color: bisque;
+  background-color: #a9daee;
   border: solid 2px black;
   color: black; }
 
 /* Letra al lado del logo*/
 .musiLandia {
   position: absolute;
-  top: 15px;
-  left: 48px;
+  top: 7px;
+  left: 38px;
   right: 3px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: small;
-  color: #156919; }
+  color: #c2f3c9; }
 
 /* Letra al lado de mi logo */
 /* HERO se le suele llamar a la parte principal de la pagina*/
@@ -131,9 +145,9 @@ a {
 /* BREVE POEMA DEBAJO DE LAS TRES IMAGENES DE BOOTSTRAP */
 .poema {
   margin-top: 1px;
-  color: #b1a936;
+  color: #f5efc7;
   line-height: 1.8;
-  font-size: 1.30rem; }
+  font-size: 1rem; }
 
 /* Poema debajos de las tres img de Bootstrap */
 .footer {

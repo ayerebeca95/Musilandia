@@ -8,7 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
     /* forma de la letra */
 
-    background-color: rgb(65, 55, 55);
+    background-color: rgb(20, 17, 17);
     /* color de todo el fondo */
 
     color: aliceblue;
@@ -27,18 +27,24 @@ h6 {
     font-family: "Roboto Slab, serif";
    /* padding: 70px 30px 30px 50px;
     margin: 0;*/
+    font-size: 1rem;
+    color: rgb(85, 136, 165);
 }
 
 
 /* a de ANCLA, Las secciones de inicio y otras opciones*/
 a {
-    color: rgb(247, 206, 219);
+    color: rgb(109, 147, 182);
    /* text-decoration: none;*/
     /* SIN PUNTITOS AL LADO*/
 
-    margin-right: 30px;
+    margin-right: 25px;
 }
-
+ 
+p {
+    font-size: 15px;
+    color: white;
+}
 
 /* Incluyendo Mixin*/
 @mixin none {
