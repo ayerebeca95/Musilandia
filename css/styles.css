@@ -231,12 +231,23 @@ a {
     color: bisque;
     width: 100%; } }
 
+/* Destacados, Generos, Mas recientes (archivos de HTML) TABLAS CREADAS CON GRID*/
+@media screen and (max-width: 640px) {
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 100px 100px 100px; }
+  .gridItem {
+    background-color: bisque;
+    border: solid 2px black;
+    color: black; } }
+
 /* FOOTER*/
 @media screen and (max-width: 768px) {
   .footerRow {
     flex-direction: column;
     align-items: center; }
-  .footerMenu, .footerForm {
+  .footerMenu,
+  .footerForm {
     margin-bottom: 50px; }
   .footerForm {
     width: 80%; } }
