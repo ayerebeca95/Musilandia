@@ -60,6 +60,26 @@ a {
   padding: 0px 50px;
   margin: 0px; }
 
+/* UTILIZANDO GRID*/
+.gridContainer {
+  display: grid;
+  grid-template-columns: 200px 200px 200px; }
+
+.gridItem {
+  background-color: bisque;
+  border: solid 2px black;
+  color: black; }
+
+/* UTILIZANDO GRID*/
+.gridContainer {
+  display: grid;
+  grid-template-columns: 200px 200px 200px; }
+
+.gridItem {
+  background-color: bisque;
+  border: solid 2px black;
+  color: black; }
+
 /* Letra al lado del logo*/
 .musiLandia {
   position: absolute;
