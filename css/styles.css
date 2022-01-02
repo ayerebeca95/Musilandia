@@ -230,19 +230,19 @@ a {
     align-items: center; }
   .musiLandia {
     position: absolute;
-    top: 22px;
-    left: 30px;
+    top: 7px;
+    left: 38px;
     right: 3px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 0.5rem;
-    color: #156919; }
+    font-size: small;
+    color: #c2f3c9; }
   .biografia p {
     justify-content: space-between;
     font-size: 1rem;
     line-height: 1.8;
     display: flex;
     align-items: center;
-    color: bisque;
+    color: #f5f3f1;
     width: 100%; } }
 
 /* Destacados, Generos, Mas recientes (archivos de HTML) TABLAS CREADAS CON GRID*/
@@ -251,7 +251,7 @@ a {
     display: grid;
     grid-template-columns: 100px 100px 100px; }
   .gridItem {
-    background-color: bisque;
+    background-color: #a9daee;
     border: solid 2px black;
     color: black; } }
 

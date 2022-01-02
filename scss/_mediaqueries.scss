@@ -59,12 +59,12 @@
 
     .musiLandia {
         position: absolute;
-        top: 22px;
-        left: 30px;
+        top: 7px;
+        left: 38px;
         right: 3px;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 0.5rem;
-        color: rgb(21, 105, 25);
+        font-size: small;
+        color: rgb(194, 243, 201);
     }
 
 
@@ -75,7 +75,7 @@
         line-height: 1.8;
         display: flex;
         align-items: center;
-        color: bisque;
+        color: rgb(245, 243, 241);
         width: 100%;
 
 
@@ -90,7 +90,7 @@
     }
 
     .gridItem {
-        background-color: bisque;
+        background-color: rgb(169, 218, 238);
         border: solid 2px black;
         color: black;
 
