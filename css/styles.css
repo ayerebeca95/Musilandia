@@ -131,7 +131,8 @@ a {
   display: flex;
   align-items: center;
   color: bisque;
-  padding: 100px 50px; }
+  padding: 100px 50px;
+  margin: 50px; }
 
 .biografia p {
   padding: 30px 30px; }
@@ -210,7 +211,6 @@ a {
   .hero {
     width: 100%;
     height: 50vh;
-    background-image: url(../imagenes/imgnuevaa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; } }
