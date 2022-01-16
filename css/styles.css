@@ -63,7 +63,7 @@ a {
       /*filter: invert(100);  CAMBIA MI LOGO A COLOR LILA*/ }
 
 .secciones {
-  padding: 0px 50px;
+  padding: 50px 50px;
   margin: 0px; }
 
 /* UTILIZANDO GRID*/
@@ -119,7 +119,7 @@ a {
 .hero {
   width: 100%;
   height: 100vh;
- /* background-image: url(../imagenes/imgnuevaa.jpg);*/
+  /* background-image: url(../imagenes/imgnuevaa.jpg);*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -130,16 +130,18 @@ a {
   line-height: 1.8;
   display: flex;
   align-items: center;
-  color: bisque; }
-  .biografia img {
-    height: 100%; }
+  color: bisque;
+  padding: 100px 50px; }
+
+.biografia p {
+  padding: 30px 30px; }
 
 /* Aplicando EXTEND*/
 .biografia {
   font-size: 1.25rem; }
 
 .container, .row {
-  padding: 25px 10px 10px; }
+  padding: 100px 30px 30px; }
 
 /* Aplicando con Bootstrap*/
 /* BREVE POEMA DEBAJO DE LAS TRES IMAGENES DE BOOTSTRAP */
