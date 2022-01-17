@@ -5,14 +5,29 @@
     display: flex;
     align-items: center;
     color: bisque;
-    padding: 100px 50px;
-    margin: 50px;
+    padding: 0px 50px;
+    margin: 0px;
 
 
 }
 
 .biografia p {
-    padding: 30px 30px;
+    padding: 0px 30px;
+    font-size: 1rem;
+    color: rgb(22, 37, 13)
+}
+
+.biografiaAside {
+    display: flex;
+    margin-left: 20px;
+   padding-bottom: 35px;
+}
+
+.biografiaAside p {
+    padding: 50px 30px;
+    font-size: 1rem;
+    color: rgb(22, 37, 13);
+    text-align: center
 }
 
 

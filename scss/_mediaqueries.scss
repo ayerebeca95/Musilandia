@@ -67,18 +67,51 @@
 
 
 
-    .biografia p {
+    .biografia {
         justify-content: space-between;
-        font-size: 15px;
+       /* font-size: 1.25rem;*/
         line-height: 1.8;
         display: flex;
         align-items: center;
-        color: rgb(245, 243, 241);
-        width: 100%;
-     
+        color: bisque;
+        padding: 0px 20px;
+        margin: 0px;
+    
+    
     }
+    
+    .biografia p {
+        padding: 0px 10px;
+        font-size: 12px;
+        color: rgb(22, 37, 13);
+        text-align: start;
+    }
+   
 
-
+    .animate {
+        padding: 30px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(77, 88, 78);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .underTitulo {
+        padding: 0px 30px 10px 30px;
+        color: rgb(43, 51, 39);
+        font-size: 1rem;
+        font-family: cursive;
+        margin-right: 55px;
+    }
+    
+    .container, .row {
+        padding: 0px 3px;
+       
+       
+    }
 
     /* BREVE POEMA DEBAJO DE LAS TRES IMAGENES DE BOOTSTRAP */
 .poema {

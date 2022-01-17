@@ -13,11 +13,14 @@
     list-style: none;
     width: 100%;
 
-    li {
+    li a {
       display: inline-block;
       margin-top: 12px;
+    
     }
   }
+
+
 
   &Logo {
     display: flex;
@@ -35,4 +38,12 @@
   }
 
 
+}
+
+
+
+
+.headerMenu li a:hover {
+  background: rgb(181, 218, 196);
+  color:rgb(20, 29, 20)
 }

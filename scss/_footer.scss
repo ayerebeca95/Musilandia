@@ -1,6 +1,8 @@
 .footer {
     background-color: black;
-    padding: 50px 0;
+    padding: 100px 0px;
+
+
 
 
 
@@ -70,6 +72,45 @@
         height: 50px;
 
     }
+
+
+}
+
+.footerContacto {
+    color: blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    width: 100%;
+
+
+}
+
+.contactFoot {
+    display: flex;
+    color: blanchedalmond;
+    font-family: cursive;
+    font-size: 1.5rem;
+    margin-left: 80px;
+    padding: 0px 30px 50px 30px;
+
+}
+
+.mapSide {
+    display: flex;
+    margin-bottom: 80px;
+    margin-right: 200px;
+    font-size: 1rem;
+    font-family: monospace;
+    color: brown;
+}
+
+.underContac {
+     display: flex;
+    padding: 20px 20px 10px 20px;
+    color: rgb(183, 233, 156);
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 67px;
 
 
 }
