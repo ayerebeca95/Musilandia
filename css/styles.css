@@ -233,34 +233,29 @@ a {
     height: 50px; }
 
 .footerContacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: blanchedalmond;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 15px;
-  width: 100%; }
+  padding: 0px 200px; }
 
 .contactFoot {
   display: flex;
   color: blanchedalmond;
   font-family: cursive;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-left: 80px;
   padding: 0px 30px 50px 30px; }
-
-.mapSide {
-  display: flex;
-  margin-bottom: 80px;
-  margin-right: 200px;
-  font-size: 1rem;
-  font-family: monospace;
-  color: brown; }
 
 .underContac {
   display: flex;
   padding: 20px 20px 10px 20px;
   color: #b7e99c;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-left: 67px; }
+  margin-left: 50px; }
 
 /* HEADER MENU*/
 @media screen and (max-width: 640px) {
