@@ -24,25 +24,25 @@ body {
 h2,
 h3,
 h4,
-h5,
 h6 {
  
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     /*justify-content: center;
     align-items: center;
     margin: 0px;*/
     font-size: 1.5rem;
-    color: rgb(53, 45, 34);
-    margin-left: 90px ;
+    color: rgb(42, 49, 43);
+    margin-left: 150px ;
     margin-top: 5px;
-    padding: 13px 30px;
+    padding: 45px 30px;
 }
 
 
 /* a de ANCLA, Las secciones de inicio y otras opciones*/
 a {
-    color: rgb(22, 102, 102);
+    color: rgb(189, 196, 189);
    /* text-decoration: none;*/
     /* SIN PUNTITOS AL LADO*/
 
@@ -50,7 +50,7 @@ a {
 }
 
 .animate {
-    padding: 40px 60px;
+    padding: 60px 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,7 @@ a {
 }
 
 .underTitulo {
-    padding: 20px  20px 10px 20px;
+    padding: 50px  20px 10px 20px;
     color: rgb(43, 51, 39);
     font-size: 1.5rem;
     font-family: cursive;
@@ -70,7 +70,8 @@ a {
  
 p {
     font-size: 15px;
-    color: white;
+    color: rgb(206, 235, 204);
+    
 }
 
 /* Incluyendo Mixin*/

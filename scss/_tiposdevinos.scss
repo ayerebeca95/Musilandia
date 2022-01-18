@@ -1,0 +1,40 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.gridItem {
+    background-color: bisque;
+    border: solid 2px black;
+    color: rgb(112, 21, 21);
+}
+
+
+
+.gridContainerV {
+    display: grid;
+    grid-template-columns: repeat(5 , 4fr);
+    background-color: rgb(145, 180, 151);
+    color: rgb(78, 88, 76);
+    font-weight: lighter;
+}
+
+.card-text {
+    color: black;
+}
+
+.card-title {
+    color: rgb(36, 75, 36);
+}
+
+
+/*.gridContainerV {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 5px;
+    padding: 30px;
+
+
+}*/

@@ -1,15 +1,14 @@
-@import "general";
+@import "carrousel"; // Imagen principal
 @import "header";
+@import "general";
 @import "secciones";
-@import "generos";
-@import "noEsperes";
-@import "destacados";
+@import "tiposdevinos";
+@import "desgustaciones";
 @import "masrecientes";
-@import "musilandia"; /* Letra al lado de mi logo */
+@import "sidelogo"; /* Letra al lado de mi logo */
 @import "hero";
 @import "biografia";
-@import "container"; /* Aplicando con Bootstrap*/
-@import "poema"; /* Poema debajos de las tres img de Bootstrap */
+@import "contacto"; /* Poema debajos de las tres img de Bootstrap */
 @import "footer";
 @import "mediaqueries";
 

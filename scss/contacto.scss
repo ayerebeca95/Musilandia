@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headercont {
+    position: fixed;
+    width: 100%;
+    padding: 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.headerLogoCont {
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 20px;
+        margin-top: 12px;
+        margin-left: 10px;
+    }
+}
+
+.musiLandiaCont {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    right: 3px;
+    font-family: cursive;
+    font-size: 1rem;
+    color: rgb(68, 67, 67);
+    font-weight: lighter;
+}
+
+.headerMenucont ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    width: 100%;
+   
+    
+}
+
+.headerMenucont ul li a {
+    display: inline-block;
+    margin-top: 3px;
+    margin-right: 20px;
+    color: rgb(52, 58, 58);
+   
+
+}
+
+.headerMenucont li a:hover {
+    background: rgb(181, 218, 196);
+    color: rgb(20, 29, 20)
+}
+

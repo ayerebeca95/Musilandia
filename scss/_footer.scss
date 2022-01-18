@@ -1,13 +1,13 @@
 .footer {
-    background-color: black;
-    padding: 100px 0px;
+    background-color: rgb(16, 31, 18);
+    padding: 50px 0px;
 
 
 
 
 
     &Row {
-        margin-top: 50px;
+        margin-top: 100px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -22,6 +22,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+       
 
     }
 
@@ -29,10 +30,12 @@
 
     &Menu ul {
         list-style: none;
+       
 
         li {
             margin-top: 5px;
         }
+      
     }
 
 
@@ -78,30 +81,39 @@
 
 .footerContacto {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     color: blanchedalmond;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: sans-serif;
     font-size: 15px;
-    padding: 0px 200px;
+    margin-left: 500px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+   
 
 
 }
 
 .contactFoot {
     display: flex;
-    color: blanchedalmond;
-    font-family: cursive;
-    font-size: 1rem;
-    margin-left: 80px;
+    justify-content: center;
+    color: rgb(165, 182, 160);
+    font-family:  'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 600px;
     padding: 0px 30px 50px 30px;
-    
-   
+    background-color: rgb(32, 32, 32);
+    background-size: 10px;
+    height: 0px;
+    width: 200px;
+    margin-top: 65px;
+
+
+
 }
 
 
 .underContac {
-     display: flex;
+    display: flex;
     padding: 20px 20px 10px 20px;
     color: rgb(183, 233, 156);
     font-size: 1rem;
@@ -110,3 +122,18 @@
 
 
 }
+
+.mapSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+    margin-bottom: 30px;
+
+}
+
+
+.footerMenu li a:hover {
+    background: rgb(181, 218, 196);
+    color:rgb(20, 29, 20)
+  }
