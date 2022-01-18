@@ -1,15 +1,36 @@
 /* HEADER MENU*/
 @media screen and (max-width: 640px) {
+    h2,
+    h3,
+    h4,
+    h6 {
+     
+    
+        display: flex;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        /*justify-content: center;
+        align-items: center;
+        margin: 0px;*/
+        font-size: 1rem;
+        color: rgb(42, 49, 43);
+        margin-left: 100px ;
+        margin-top: 5px;
+        padding: 45px 30px;
+    }
+
+
+
     .headerMenu ul li {
         display: flex;
         justify-content: center;
         list-style: none;
-        width: 40%;
+        width: 30%;
         display: inline-block;
-        margin-top: 12px;
+        margin-top: 0px;
         margin-right: 3px;
         font-size: 0.6rem;
         box-sizing: border-box;
+        margin-bottom: 35px;
     }
 }
 
@@ -42,16 +63,21 @@
 
 
     .headerLogo img {
-        width: 15px;
-
+        width: 10px;
 
     }
 
 
-    .headerLogo img {
+    .headerLogo {
         display: flex;
-        align-items: center;
+        margin-bottom: 70px;
+       
 
+
+        img {
+            width: 10px;
+    
+        }
     }
 
 
@@ -82,7 +108,7 @@
     
     .biografia p {
         padding: 0px 10px;
-        font-size: 12px;
+        font-size: 20px;
         color: rgb(22, 37, 13);
         text-align: start;
     }
@@ -92,12 +118,17 @@
         margin-left: 20px;
        padding-bottom: 35px;
     }
+
+    .biografiaAside img {
+   width: 40%;
+   height: 30%;
+    }
     
     .biografiaAside p {
-        padding: 50px 30px;
-        font-size: 1rem;
+        padding: 0px 20px;
+        font-size: 9px;
         color: rgb(22, 37, 13);
-        text-align: center
+        text-align: center;
     }
    
 
@@ -137,7 +168,7 @@
 }
 
 /* Destacados, Generos, Mas recientes (archivos de HTML) TABLAS CREADAS CON GRID*/
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 412px) {
     .gridContainer {
         display: grid;
         grid-template-columns: 100px 100px 100px;
@@ -148,6 +179,29 @@
         border: solid 2px black;
         color: black;
 
+    }
+
+    
+    
+    
+    
+    .gridContainerV {
+        display: grid;
+        grid-template-columns: repeat(4 , 4fr);
+        background-color: rgb(145, 180, 151);
+        color: rgb(78, 88, 76);
+        font-weight: lighter;
+    }
+    
+    .card-text {
+        color: black;
+        font-size: 9px;
+        padding: 5px;
+    }
+    
+    .card-title {
+        color: rgb(36, 75, 36);
+        font-size: 11px;
     }
 }
 
@@ -184,7 +238,7 @@
         color: blanchedalmond;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 15px;
-        padding: 0px 200px;
+        padding: 0px;
     
     
     }
@@ -211,5 +265,70 @@
     
     
     }
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .headercont {
+        position: fixed;
+        width: 100%;
+        padding: 0px 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 2;
+        box-sizing: border-box;
+    }
+    
+    .headerLogoCont {
+        display: flex;
+        align-items: center;
+    
+        img {
+            width: 20px;
+            margin-top: 12px;
+            margin-left: 10px;
+        }
+    }
+    
+    .musiLandiaCont {
+        position: absolute;
+        top: 10px;
+        left: 30px;
+        right: 3px;
+        font-family: cursive;
+        font-size: 1rem;
+        color: rgb(68, 67, 67);
+        font-weight: lighter;
+    }
+    
+    .headerMenucont ul {
+        display: flex;
+        justify-content: end;
+        list-style: none;
+        width: 100%;
+        font-size: 10px;
+        
+    }
+    
+    .headerMenucont ul li a {
+        display: inline-block;
+        margin-top: 3px;
+        margin-right: 20px;
+        color: rgb(52, 58, 58);
+        
+    
+    }
+    
+    .headerMenucont li a:hover {
+        background: rgb(181, 218, 196);
+        color: rgb(20, 29, 20)
+    }
+    
+    
 
 }
