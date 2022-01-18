@@ -427,7 +427,7 @@ a {
   .underTitulo {
     padding: 0px 30px 10px 30px;
     color: #2b3327;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: cursive;
     margin-right: 55px; }
   .container, .row {
@@ -437,17 +437,7 @@ a {
     margin-top: 1px;
     color: #f5efc7;
     line-height: 1.8;
-    font-size: 15px; } }
-
-/* Destacados, Generos, Mas recientes (archivos de HTML) TABLAS CREADAS CON GRID*/
-@media screen and (max-width: 412px) {
-  .gridContainer {
-    display: grid;
-    grid-template-columns: 100px 100px 100px; }
-  .gridItem {
-    background-color: #a9daee;
-    border: solid 2px black;
-    color: black; }
+    font-size: 15px; }
   .gridContainerV {
     display: grid;
     grid-template-columns: repeat(4, 4fr);
@@ -461,6 +451,16 @@ a {
   .card-title {
     color: #244b24;
     font-size: 11px; } }
+
+/* Destacados, Generos, Mas recientes (archivos de HTML) TABLAS CREADAS CON GRID*/
+@media screen and (max-width: 412px) {
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 100px 100px 100px; }
+  .gridItem {
+    background-color: #a9daee;
+    border: solid 2px black;
+    color: black; } }
 
 /* FOOTER*/
 @media screen and (max-width: 768px) {
