@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.headercont {
+.headerCont {
     position: fixed;
     width: 100%;
     padding: 0px 5px;
@@ -14,7 +14,7 @@
     z-index: 2;
 }
 
-.headerLogoCont {
+.headerLogocont {
     display: flex;
     align-items: center;
 
@@ -25,7 +25,7 @@
     }
 }
 
-.musiLandiaCont {
+.musiLandiacont {
     position: absolute;
     top: 10px;
     left: 30px;
@@ -41,8 +41,8 @@
     justify-content: end;
     list-style: none;
     width: 100%;
-   
-    
+
+
 }
 
 .headerMenucont ul li a {
@@ -50,12 +50,92 @@
     margin-top: 3px;
     margin-right: 20px;
     color: rgb(52, 58, 58);
-   
+
 
 }
 
-.headerMenucont li a:hover {
-    background: rgb(181, 218, 196);
+/*.headerMenucont li a:hover {
+    background: rgb(95, 100, 97);
     color: rgb(20, 29, 20)
+}*/
+
+
+
+footer {
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(../imagenes/footer.jpg);
+
 }
 
+.containerFooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+.boxFooter {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.boxFooter .logo img {
+    width: 150px;
+}
+
+.boxFooter .terminos {
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+
+    p {
+        color: black;
+    }
+}
+
+.boxFooter h6 {
+    margin-bottom: 30px;
+    color: rgb(37, 52, 41);
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: cursive;
+}
+
+.boxFooter a {
+    margin-top: 10px;
+    color: rgb(31, 37, 36);
+   
+}
+
+.boxFooter a:hover {
+    opacity: 0.8;
+}
+ .boxFooter a.fab {
+     font-size: 20px;
+
+ }
+ 
+ .boxCopyright {
+     max-width: 1200px;
+     margin: auto;
+     text-align: center;
+    padding: 0px 40px;
+ }
+
+ .boxCopyright p {
+   margin-top: 20px;
+   color: rgb(34, 33, 33);
+ }
+
+ .boxCopyright hr {
+     border: none;
+     height: 1px;
+     background-color: rgb(42, 41, 41);
+ }

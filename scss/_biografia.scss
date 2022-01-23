@@ -24,10 +24,12 @@
 }
 
 .biografiaAside p {
-    padding: 50px 30px;
+    padding: 50px 35px;
     font-size: 1rem;
     color: rgb(22, 37, 13);
-    text-align: center
+    text-align: justify;
+    
+
 }
 
 
@@ -36,5 +38,4 @@
     @extend .biografia; 
     font-size: 1.25rem;
 }
-
-
+  

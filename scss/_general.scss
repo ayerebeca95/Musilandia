@@ -13,7 +13,8 @@ body {
 
     color: aliceblue;
     /* color de las letras */
-
+    background-image: url(../imagenes/footer.jpg);
+    
 
 }
 
@@ -23,8 +24,8 @@ body {
 
 h2,
 h3,
-h4,
-h6 {
+h4
+ {
  
 
     display: flex;
@@ -40,9 +41,18 @@ h6 {
 }
 
 
+h5 {
+    color: rgb(15, 14, 14);
+    font-family: monospace;
+    font-size: 1.6rem;
+}
+
+
+
+
 /* a de ANCLA, Las secciones de inicio y otras opciones*/
 a {
-    color: rgb(189, 196, 189);
+    color: rgb(74, 82, 74);
    /* text-decoration: none;*/
     /* SIN PUNTITOS AL LADO*/
 
@@ -55,15 +65,15 @@ a {
     justify-content: center;
     align-items: center;
     color: rgb(66, 70, 66);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2rem;
+    font-family: fantasy;
+    font-size: 1.5rem;
 }
 
 .underTitulo {
     padding: 50px  20px 10px 20px;
     color: rgb(43, 51, 39);
     font-size: 1.5rem;
-    font-family: cursive;
+    font-family: monospace;
     margin-left: 67px;
 }
 
