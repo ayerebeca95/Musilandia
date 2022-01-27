@@ -76,15 +76,16 @@
     }
 
     .biografiaAside img {
-   width: 40%;
-   height: 30%;
+   width: 50%;
+   height: 50%;
+   
     }
     
     .biografiaAside p {
         padding: 0px 20px;
         font-size: 9px;
         color: rgb(22, 37, 13);
-        text-align: center;
+        text-align: center; 
     }
    
 
@@ -124,7 +125,7 @@
 
 .gridContainerV {
     display: grid;
-    grid-template-columns: repeat(4 , 4fr);
+    grid-template-columns: repeat(3 , 3fr);
     background-color: rgb(145, 180, 151);
     color: rgb(78, 88, 76);
     font-weight: lighter;

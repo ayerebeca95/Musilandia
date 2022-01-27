@@ -474,6 +474,12 @@ a {
   color: #16250d;
   text-align: justify; }
 
+.biografiaImag {
+  width: 100%;
+  background-image: url(../imagenes/desg1.jpg);
+  background-position: center;
+  background-repeat: repeat-y; }
+
 /* Aplicando EXTEND*/
 .biografia {
   font-size: 1.25rem; }
@@ -714,8 +720,8 @@ footer {
     margin-left: 20px;
     padding-bottom: 35px; }
   .biografiaAside img {
-    width: 40%;
-    height: 30%; }
+    width: 50%;
+    height: 50%; }
   .biografiaAside p {
     padding: 0px 20px;
     font-size: 9px;
@@ -746,7 +752,7 @@ footer {
     font-size: 15px; }
   .gridContainerV {
     display: grid;
-    grid-template-columns: repeat(4, 4fr);
+    grid-template-columns: repeat(3, 3fr);
     background-color: #91b497;
     color: #4e584c;
     font-weight: lighter; }
