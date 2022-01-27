@@ -667,7 +667,7 @@ footer {
   color: #141d14; }
 
 /* HEADER MENU*/
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   h2,
   h3,
   h4,
@@ -683,7 +683,7 @@ footer {
     margin-top: 5px;
     padding: 45px 30px; } }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   .carrousel {
     width: 100%;
     /* background-image: url(../imagenes/imgnuevaa.jpg);*/
@@ -692,7 +692,7 @@ footer {
     background-position: center; } }
 
 /* BIOGRAFIA*/
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   .musiLandia {
     position: absolute;
     top: 23px;
@@ -765,7 +765,7 @@ footer {
     font-size: 11px; } }
 
 /* Destacados, Generos, Mas recientes (archivos de HTML) TABLAS CREADAS CON GRID*/
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 768px) {
   .gridContainer {
     display: grid;
     grid-template-columns: 100px 100px 100px; }
