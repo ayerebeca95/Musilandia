@@ -4,26 +4,6 @@
     box-sizing: border-box;
 }
 
-.headerCont {
-    position: fixed;
-    width: 100%;
-    padding: 0px 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 2;
-}
-
-.headerLogocont {
-    display: flex;
-    align-items: center;
-
-    img {
-        width: 20px;
-        margin-top: 12px;
-        margin-left: 10px;
-    }
-}
 
 .musiLandiacont {
     position: absolute;
@@ -35,30 +15,6 @@
     color: rgb(68, 67, 67);
     font-weight: lighter;
 }
-
-.headerMenucont ul {
-    display: flex;
-    justify-content: end;
-    list-style: none;
-    width: 100%;
-
-
-}
-
-.headerMenucont ul li a {
-    display: inline-block;
-    margin-top: 3px;
-    margin-right: 20px;
-    color: rgb(52, 58, 58);
-
-
-}
-
-/*.headerMenucont li a:hover {
-    background: rgb(95, 100, 97);
-    color: rgb(20, 29, 20)
-}*/
-
 
 
 footer {
@@ -139,3 +95,24 @@ footer {
      height: 1px;
      background-color: rgb(42, 41, 41);
  }
+
+@media (max-width: 768px) {
+    .containerFooter {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 100px;
+        
+    
+    }
+    
+    .boxFooter {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+}

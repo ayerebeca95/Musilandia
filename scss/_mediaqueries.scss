@@ -19,19 +19,6 @@
     }
 
 
-
-    .headerMenu ul li {
-        display: flex;
-        justify-content: center;
-        list-style: none;
-        width: 30%;
-        display: inline-block;
-        margin-top: 0px;
-        margin-right: 3px;
-        font-size: 0.6rem;
-        box-sizing: border-box;
-        margin-bottom: 35px;
-    }
 }
 
 @media screen and (max-width: 640px) {
@@ -48,37 +35,6 @@
 
 /* BIOGRAFIA*/
 @media screen and (max-width: 640px) {
-
-
-    .header {
-        position: fixed;
-        width: 100%;
-        padding: 0px 10px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        z-index: 2;
-    }
-
-
-
-    .headerLogo img {
-        width: 10px;
-
-    }
-
-
-    .headerLogo {
-        display: flex;
-        margin-bottom: 70px;
-       
-
-
-        img {
-            width: 10px;
-    
-        }
-    }
 
 
     .musiLandia {
@@ -275,27 +231,6 @@
         box-sizing: border-box;
     }
     
-    .headercont {
-        position: fixed;
-        width: 100%;
-        padding: 0px 5px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        z-index: 2;
-        box-sizing: border-box;
-    }
-    
-    .headerLogoCont {
-        display: flex;
-        align-items: center;
-    
-        img {
-            width: 20px;
-            margin-top: 12px;
-            margin-left: 10px;
-        }
-    }
     
     .musiLandiaCont {
         position: absolute;
@@ -308,7 +243,7 @@
         font-weight: lighter;
     }
     
-    .headerMenucont ul {
+    /*.header ul {
         display: flex;
         justify-content: end;
         list-style: none;
@@ -317,7 +252,7 @@
         
     }
     
-    .headerMenucont ul li a {
+    .header ul li a {
         display: inline-block;
         margin-top: 3px;
         margin-right: 20px;
@@ -326,10 +261,10 @@
     
     }
     
-    .headerMenucont li a:hover {
+    .header li a:hover {
         background: rgb(181, 218, 196);
         color: rgb(20, 29, 20)
-    }
+    }*/
     
     
 

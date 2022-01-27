@@ -59,12 +59,108 @@
   background: rgb(181, 218, 196);
   color: rgb(20, 29, 20)
 }*/
+/* header {
+   width: 100%;
+   padding: 0 40px 20px 40px;
+   color: white;
+   text-align: center;
+   background: rgb(73, 76, 74);
+
+ }
+
+ .headerLogo {
+
+   display: flex;
+   align-items: center;
+   margin-top: 10px;
+
+   img {
+
+     width: 65px;
+     margin-top: 30px;
+     margin-left: 10px;
+   }
+ }
+
+
+
+ nav ul {
+   list-style: none;
+   background: rgb(140, 142, 140);
+   text-align: center;
+ }
+
+ nav ul li {
+   display: inline-block;
+   padding: 20px;
+   transition: all ease-in-out 250ms;
+ }
+
+ ul li a {
+   color: white;
+   text-decoration: none;
+ }
+
+ nav ul li:hover {
+   background: grey;
+ }
+
+ .hide {
+   font-size: 22px;
+   padding: 16px;
+   background-color: grey;
+   color: white;
+   cursor: pointer;
+   display: none;
+
+ }
+
+ @media (max-width: 768px) {
+   ul li {
+     width: 100%;
+     padding: 16px;
+     text-align: left;
+   }
+
+   nav ul {
+     display: none;
+   }
+
+   .hide {
+     display: block;
+   }
+ }*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: cursive; }
+
 header {
   width: 100%;
-  padding: 0 40px 20px 40px;
+  padding: 40px;
   color: white;
   text-align: center;
-  background: #494c4a; }
+  background: grey; }
+
+nav ul {
+  list-style: none;
+  background: #aca7a7; }
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+  transition: all ease-in-out 250ms;
+  text-align: center; }
+
+ul li a {
+  color: white;
+  text-decoration: none; }
+
+nav ul li:hover {
+  background: #a5a2a2; }
 
 .headerLogo {
   display: flex;
@@ -75,40 +171,37 @@ header {
     margin-top: 30px;
     margin-left: 10px; }
 
-nav ul {
-  list-style: none;
-  background: #8c8e8c;
-  text-align: center; }
-
-nav ul li {
-  display: inline-block;
-  padding: 20px;
-  transition: all ease-in-out 250ms; }
-
-ul li a {
-  color: white;
-  text-decoration: none; }
-
-nav ul li:hover {
-  background: grey; }
-
-.hide {
-  font-size: 22px;
-  padding: 16px;
-  background-color: grey;
-  color: white;
-  cursor: pointer;
-  display: none; }
-
 @media (max-width: 768px) {
-  ul li {
+  header {
     width: 100%;
-    padding: 16px;
-    text-align: left; }
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background: grey;
+    box-sizing: border-box;
+    font-size: 2px; }
   nav ul {
-    display: none; }
-  .hide {
-    display: block; } }
+    list-style: none;
+    background: #aca7a7; }
+  nav ul li {
+    display: inline-block;
+    padding: 2px;
+    transition: all ease-in-out 250ms;
+    text-align: center;
+    font-size: 7px; }
+  ul li a {
+    color: white;
+    text-decoration: none; }
+  nav ul li:hover {
+    background: #a5a2a2; }
+  .headerLogo {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; }
+    .headerLogo img {
+      width: 30px;
+      margin-top: 30px;
+      margin-left: 10px; } }
 
 * {
   margin: 0;
@@ -311,6 +404,50 @@ a {
   margin: 16px 0;
   font-size: 16px; }
 
+@media (max-width: 768px) {
+  .form-register {
+    width: 380px;
+    background: #596f5f;
+    padding: 2px;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white; }
+  .form-register h4 {
+    font-size: 4px;
+    margin-bottom: 10px; }
+  .controls {
+    width: 100%;
+    background: #d0f0d0;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px; }
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px; }
+  .form-register a {
+    color: white;
+    text-decoration: none; }
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline; }
+  .form-register .botons {
+    width: 100%;
+    background: #525a54;
+    border: none;
+    padding: 7px;
+    color: white;
+    margin: 10px 0;
+    font-size: 13px; }
+  .container, .row {
+    padding: 50px 30px 30px; } }
+
 .biografia {
   justify-content: space-between;
   /* font-size: 1.25rem;*/
@@ -346,23 +483,6 @@ a {
   padding: 0;
   box-sizing: border-box; }
 
-.headerCont {
-  position: fixed;
-  width: 100%;
-  padding: 0px 5px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 2; }
-
-.headerLogocont {
-  display: flex;
-  align-items: center; }
-  .headerLogocont img {
-    width: 20px;
-    margin-top: 12px;
-    margin-left: 10px; }
-
 .musiLandiacont {
   position: absolute;
   top: 10px;
@@ -373,22 +493,6 @@ a {
   color: #444343;
   font-weight: lighter; }
 
-.headerMenucont ul {
-  display: flex;
-  justify-content: end;
-  list-style: none;
-  width: 100%; }
-
-.headerMenucont ul li a {
-  display: inline-block;
-  margin-top: 3px;
-  margin-right: 20px;
-  color: #343a3a; }
-
-/*.headerMenucont li a:hover {
-    background: rgb(95, 100, 97);
-    color: rgb(20, 29, 20)
-}*/
 footer {
   width: 100%;
   padding: 50px 0px;
@@ -450,6 +554,20 @@ footer {
   border: none;
   height: 1px;
   background-color: #2a2929; }
+
+@media (max-width: 768px) {
+  .containerFooter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px; }
+  .boxFooter {
+    display: flex;
+    flex-direction: column;
+    padding: 10px; } }
 
 /* Poema debajos de las tres img de Bootstrap */
 .footer {
@@ -557,18 +675,7 @@ footer {
     color: #2a312b;
     margin-left: 100px;
     margin-top: 5px;
-    padding: 45px 30px; }
-  .headerMenu ul li {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    width: 30%;
-    display: inline-block;
-    margin-top: 0px;
-    margin-right: 3px;
-    font-size: 0.6rem;
-    box-sizing: border-box;
-    margin-bottom: 35px; } }
+    padding: 45px 30px; } }
 
 @media screen and (max-width: 640px) {
   .carrousel {
@@ -580,21 +687,6 @@ footer {
 
 /* BIOGRAFIA*/
 @media screen and (max-width: 640px) {
-  .header {
-    position: fixed;
-    width: 100%;
-    padding: 0px 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 2; }
-  .headerLogo img {
-    width: 10px; }
-  .headerLogo {
-    display: flex;
-    margin-bottom: 70px; }
-    .headerLogo img {
-      width: 10px; }
   .musiLandia {
     position: absolute;
     top: 23px;
@@ -716,22 +808,6 @@ footer {
     margin: 0;
     padding: 0;
     box-sizing: border-box; }
-  .headercont {
-    position: fixed;
-    width: 100%;
-    padding: 0px 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 2;
-    box-sizing: border-box; }
-  .headerLogoCont {
-    display: flex;
-    align-items: center; }
-    .headerLogoCont img {
-      width: 20px;
-      margin-top: 12px;
-      margin-left: 10px; }
   .musiLandiaCont {
     position: absolute;
     top: 10px;
@@ -741,17 +817,25 @@ footer {
     font-size: 1rem;
     color: #444343;
     font-weight: lighter; }
-  .headerMenucont ul {
-    display: flex;
-    justify-content: end;
-    list-style: none;
-    width: 100%;
-    font-size: 10px; }
-  .headerMenucont ul li a {
-    display: inline-block;
-    margin-top: 3px;
-    margin-right: 20px;
-    color: #343a3a; }
-  .headerMenucont li a:hover {
-    background: #b5dac4;
-    color: #141d14; } }
+  /*.header ul {
+        display: flex;
+        justify-content: end;
+        list-style: none;
+        width: 100%;
+        font-size: 10px;
+        
+    }
+    
+    .header ul li a {
+        display: inline-block;
+        margin-top: 3px;
+        margin-right: 20px;
+        color: rgb(52, 58, 58);
+        
+    
+    }
+    
+    .header li a:hover {
+        background: rgb(181, 218, 196);
+        color: rgb(20, 29, 20)
+    }*/ }
