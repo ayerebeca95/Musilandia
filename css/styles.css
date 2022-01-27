@@ -561,7 +561,7 @@ footer {
   height: 1px;
   background-color: #2a2929; }
 
-@media (max-width: 768px) {
+@media (max-width: 914px) {
   .containerFooter {
     display: flex;
     flex-direction: row;
@@ -785,7 +785,7 @@ footer {
   .footerForm {
     width: 80%; } }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   .footerSocial img {
     height: 40px; }
   .footerContacto {
